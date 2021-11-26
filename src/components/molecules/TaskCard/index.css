@@ -1,0 +1,88 @@
+.tasks-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.created-task-card {
+  margin-left: 40px;
+  height: 100%;
+  width: 300px;
+  background: #6182ac;
+  border: 2px solid white;
+  box-sizing: border-box;
+  border-radius: 35px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.75;
+  text-align: left;
+  color: white;
+  animation: rotateCard 1s linear;
+  transition: 0.4s;
+}
+
+.created-task-card:hover {
+  /*   box-shadow: 1px 1px 7px 1px #505050; */
+  margin-top: -2px;
+  transform: scale(0.9);
+}
+
+.card-text {
+  margin-bottom: 20px;
+}
+
+.card-btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.change-btn {
+  width: 90px;
+  height: 30px;
+  background: #ffa601;
+  border: none;
+  border-radius: 13px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 1.75;
+  color: #1e3266;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.delete-btn {
+  width: 90px;
+  height: 30px;
+  background: #ff3d2f;
+  border: none;
+  border-radius: 13px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 1.75;
+  color: #1e3266;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.change-btn:hover {
+  background: #ffcb6a;
+  box-shadow: 1px 1px 7px 1px #505050;
+  margin-top: -2px;
+}
+
+.delete-btn:hover {
+  background: #fd6e64;
+  box-shadow: 1px 1px 7px 1px #505050;
+  margin-top: -2px;
+}

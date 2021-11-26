@@ -1,0 +1,23 @@
+.create-task-btn {
+  width: 100px;
+  height: 100px;
+  background: #e07290;
+  border: none;
+  border-radius: 50%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 1.75;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.create-task-btn:hover {
+  background: #356cb1;
+  box-shadow: 1px 1px 7px 1px #505050;
+  margin-top: -2px;
+}
