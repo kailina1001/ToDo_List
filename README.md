@@ -1,11 +1,13 @@
 # ToDo List React App
 
-Link to the project in gh-pages [ToDo List](ссылка).
+Link to the project in gh-pages [ToDo List](https://kailina1001.github.io/ToDo_List/).
 
 ## Description
 
 A simple list of tasks to complete.
-You can set a task, edit it and delete.
+On page Create Task - you can create new tasks.
+New tasks are available on page ViewTasks.
+You can edit task and delete it.
 
 ### Technologies used
 
@@ -16,4 +18,3 @@ You can set a task, edit it and delete.
 > - React-router-dom
 > - React Hooks
 > - Redux
-> - Redux-saga
