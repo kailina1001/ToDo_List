@@ -21,10 +21,12 @@
   text-align: center;
   color: #ffffff;
   margin-right: 150px;
+  position: absolute;
 }
 
 .nav-list {
   display: flex;
+  margin: 0 auto;
 }
 
 .nav-point {
@@ -48,4 +50,17 @@
 .for-link {
   text-decoration: none;
   color: inherit;
+}
+@media (max-width: 530px) {
+  .nav-list {
+    margin: 0 0 0 auto;
+  }
+}
+@media (max-width: 410px) {
+  .nav-point {
+    font-size: 14px;
+  }
+  .app-headline {
+    font-size: 20px;
+  }
 }

@@ -1,7 +1,7 @@
 import * as React from "react";
 import { memo } from "react";
+import { Link } from "react-router-dom";
 import "./index.css";
-import { BrowserRouter as Router, Link } from "react-router-dom";
 
 export const Navigation = memo(() => {
   return (

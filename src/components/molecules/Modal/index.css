@@ -22,11 +22,6 @@
   padding: 20px;
   border-radius: 12px;
   background-color: white;
-  /*   height: 300px;
-  width: 250px; */
-  /* height: 100%; */
-  width: 50vh;
-  height: 50vh;
   transform: scale(0.5);
   transition: 0.4s all;
 }

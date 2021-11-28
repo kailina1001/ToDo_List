@@ -1,12 +1,12 @@
 .tasks-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 25px;
   margin-bottom: 40px;
+  padding: 0 20px;
 }
 
 .created-task-card {
-  margin-left: 40px;
   height: 100%;
   width: 300px;
   background: #6182ac;
@@ -22,14 +22,10 @@
   line-height: 1.75;
   text-align: left;
   color: white;
-  animation: rotateCard 1s linear;
-  transition: 0.4s;
 }
 
 .created-task-card:hover {
-  /*   box-shadow: 1px 1px 7px 1px #505050; */
   margin-top: -2px;
-  transform: scale(0.9);
 }
 
 .card-text {

@@ -330,6 +330,7 @@ body {
   background: url(/src/components/img/Cloudy-bg.svg) no-repeat;
   background-size: cover;
   font-family: "Comfortaa", cursive;
+  min-height: 100vh;
 }
 
 /* ---------------------------------------Add Task Page------------------------------------------------------- */
