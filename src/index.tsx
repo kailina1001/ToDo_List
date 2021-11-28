@@ -8,7 +8,7 @@ import { Provider } from "react-redux";
 import store from "./core/store";
 
 ReactDOM.render(
-  <BrowserRouter basename="/ToDo">
+  <BrowserRouter basename="/ToDo_List">
     <Provider store={store}>
       <App />
     </Provider>
