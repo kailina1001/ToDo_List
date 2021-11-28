@@ -15,15 +15,23 @@
   color: #1e3266;
 }
 
-.create-modal-input {
-  width: 310px;
+.create-modal-textarea {
+  width: 100%;
   height: 160px;
   border-radius: 10px;
   margin-bottom: 40px;
-  padding: 10px;
-  /* font: inherit; */
+  padding: 5px;
   font-size: 20px;
   resize: none;
+  border: 1px solid #1e3266;
+}
+
+.active-textarea {
+  border: 1px solid #007bff;
+}
+
+.create-modal-textarea:invalid {
+  border: 4px solid red;
 }
 
 .create-modal-btn {
@@ -46,5 +54,10 @@
 .create-modal-btn:hover {
   background: #356cb1;
   box-shadow: 1px 1px 7px 1px #505050;
-  margin-top: -2px;
+}
+
+._disable {
+  background: #88888a;
+  border: 1px solid #ebebeb;
+  box-sizing: border-box;
 }

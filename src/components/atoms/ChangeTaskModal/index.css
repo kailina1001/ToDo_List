@@ -15,15 +15,15 @@
   color: #1e3266;
 }
 
-.change-modal-input {
-  width: 310px;
+.change-modal-textarea {
+  width: 100%;
   height: 160px;
   border-radius: 10px;
   margin-bottom: 40px;
-  padding: 10px;
-  /* font: inherit; */
+  padding: 5px;
   font-size: 20px;
   resize: none;
+  border: 1px solid #1e3266;
 }
 
 .change-modal-btn {
@@ -46,5 +46,4 @@
 .change-modal-btn:hover {
   background: #ffcb6a;
   box-shadow: 1px 1px 7px 1px #505050;
-  margin-top: -2px;
 }

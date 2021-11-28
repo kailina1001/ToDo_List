@@ -22,5 +22,3 @@ export const Modal = memo(({ active, setActive, children }: IModal) => {
     </div>
   );
 });
-
-// div modal text вынесни в отдельный компанент и сделать сдесь промп
